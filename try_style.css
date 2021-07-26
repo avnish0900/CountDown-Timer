@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("/img/oldshop.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    color: white;
+}
+
+.choice_container{
+    /* border: 3px solid red; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    padding: 5rem;
+}
+.choice_container input{
+    margin-top: 2rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#user_event{
+    /* border: 3px solid red; */
+    color: black;
+}
+
+
+h1{
+    font-size: 4rem;
+    word-spacing: 4rem;
+}
+.big_text{
+    font-size: 6rem;
+    line-height: 1;
+}
+
+
+.countdown_container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.countdown_ele span{
+    text-align: center;
+    font-size: 2rem;
+    margin-right: 5rem;
+}
